@@ -1,4 +1,4 @@
-package com.paniclater.intstractor;
+package com.paniclater.puzzles.intstractor;
 
 public class Intstractor {
 	public int doIt(String starter) {
