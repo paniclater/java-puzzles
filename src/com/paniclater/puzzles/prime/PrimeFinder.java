@@ -12,10 +12,11 @@ public class PrimeFinder {
 			if(prime % i == 0) {
 				divisorsCount++;
 			};
+			if(divisorsCount > 2) {
+				return false;
+			}
 		}
-		if(divisorsCount > 2) {
-			return false;
-		}
+		
 		return true;
 	}
 }
